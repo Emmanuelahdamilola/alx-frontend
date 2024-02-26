@@ -311,5 +311,5 @@ h6 {
 }
 
 .footer {
-  pad: var(--footer-padding);
+  padding: var(--footer-padding);
 }
