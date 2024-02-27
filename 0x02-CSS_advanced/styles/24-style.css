@@ -269,7 +269,7 @@ visually-hidden {
     list-style-type: none;
 }
 
-.col{
+.col {
     float: left;
     padding: calc(0.5 * 1rem);
 }
@@ -380,6 +380,7 @@ h6 {
     color: var(--nav-item-link-hover);
 }
 
+
 .footer {
     padding: var(--footer-padding);
 }
@@ -390,29 +391,29 @@ h6 {
     clear: both;
 }
 
-.footer-address{
+.footer-address {
     color: var(--text-color);
 }
 
-.social-link{
+.social-link {
     display: block;
 }
 
-.social-link svg{
+.social-link svg {
     fill: var(--text-color);
 }
 
-.card-services .card-title{
+.card-services .card-title {
     margin: 0;
 }
 
-.card-services a{
+.card-services a {
     display: block;
     padding: 32px;
     background-color: var(--color-dark-grey);
 }
 
-.card-services a:hover{
+.card-services a:hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
