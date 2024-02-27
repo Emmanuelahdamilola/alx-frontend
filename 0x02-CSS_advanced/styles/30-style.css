@@ -1,4 +1,4 @@
-@import url('normalize.css');
+@import url('/styles/normalize.css');
 
 * {
     box-sizing: border-box;
@@ -186,13 +186,13 @@ a:active {
     float: right;
 }
 
-nav {
+.nav {
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-nav .nav-item {
+.nav .nav-item {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-medium);
@@ -201,20 +201,20 @@ nav .nav-item {
     margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
-nav .nav-item-link:hover {
+.nav .nav-item-link:hover {
     color: var(--color-white);
 }
 
-nav .nav-link::before {
+.nav .nav-link::before {
     content: '';
     position: absolute;
     top: 0;
@@ -224,7 +224,7 @@ nav .nav-link::before {
     height: 20%;
 }
 
-nav .nav-item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
